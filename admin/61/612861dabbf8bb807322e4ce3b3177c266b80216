@@ -1,0 +1,36 @@
+// This file is meant to be edited automatically by the user. The variables it
+// contains should not be renamed otherwise it would break existing customers
+// customizations.
+
+$o-user-website-values: map-merge($o-user-website-values, o-map-omit((
+    'menu-gradient': 'NULL',
+    'menu-secondary-gradient': null,
+    'footer-gradient': 'NULL',
+    'copyright-gradient': null,
+    'font': 'Plus Jakarta Sans',
+    'headings-font': 'Plus Jakarta Sans',
+    'navbar-font': null,
+    'buttons-font': 'Plus Jakarta Sans',
+    'color-palettes-number': null,
+    'color-palettes-name': 'base-1',
+    'btn-ripple': null,
+    'header-template': 'default',
+    'footer-template': 'minimalist',
+    'footer-scrolltop': true,
+    'header-links-style': default,
+    '': null,
+    'header-text-color': black,
+    'header-scroll-effect': 'fade-out',
+    'google-fonts': ('Plus Jakarta Sans'),
+    'google-local-fonts': null,
+    'hamburger-position': 'left',
+    'btn-secondary-outline': True,
+    'btn-secondary-flat': null,
+    'headings-line-height': 1.2,
+    'body-line-height': 1.2,
+    'paragraph-margin-bottom': 0px,
+    'headings-margin-bottom': 0px,
+    'logo-height': 3.125rem,
+    'menu-box-shadow': rgba(0, 0, 0, 0.15) 0px 8px 16px 0px,
+    // -- hook --
+)));
